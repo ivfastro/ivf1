@@ -94,17 +94,25 @@
         <a href="index.html">Home</a>
         <a href="course.html">Courses</a>
 	<a href="payment.html">Payment</a>
-        <a href="payment.html">Blogs</a>
-<a href="Research.html">Research</a>
-<a href="Training.html">Training</a>
-<a href="Book.html">Books</a>
-<a href="Contact.html">Contact</a>
+        
     </nav>
+
     <div id="content">
-        <h1>Traning</h1>
-		<form>
-            <p>
-			<img src="https://fheenixtechsolutions.com/ftech/wp-content/uploads/2022/12/training-concept-image.jpg" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" style="max-width: 1280px; width: 611px; height: 235px; margin: 0px" alt="Hands-on Training - Fheenix Tech Solutions" jsname="kn3ccd" aria-hidden="false"></p>
+        <h1>Payment Details</h1>
+        <form>
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter your card number" required>
+
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YYYY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="Enter CVV" required>
+
+            <label for="cardHolder">Cardholder Name:</label>
+            <input type="text" id="cardHolder" name="cardHolder" placeholder="Enter cardholder name" required>
+
+            <button type="submit">Submit Payment</button>
         </form>
     </div>
 </body>

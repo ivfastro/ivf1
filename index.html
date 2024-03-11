@@ -220,6 +220,71 @@
         <h1>Indian Vedic Foundation</h1>
         <h3>Welcomes you</h3>
     </div>
+	/* Your CSS styles go here */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+#content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #e74c3c; /* Red color */
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 10px;
+    color: #fff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    box-sizing: border-box;
+    z-index: 1;
+    display: flex;
+    justify-content: center; /* Center the navigation links horizontally */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #3498db; /* Highlight color on hover */
+}
 </body>
 
 </html>

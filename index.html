@@ -11,7 +11,6 @@
             padding: 0;
             overflow: hidden;
             font-family: 'Arial', sans-serif;
-            background-color: #000; /* Set a default background color */
         }
 
         #video-background {
@@ -26,7 +25,7 @@
 
         #content {
             position: absolute;
-            top: 50%;
+            top: 30%;
             left: 50%;
             transform: translate(-50%, -50%);
             text-align: center;
@@ -39,8 +38,8 @@
             color: #e74c3c; /* Red color */
         }
 
-        h3 {
-            font-size: 1.5em;
+        h2 {
+            font-size: 2em;
             margin-top: 10px;
             color: #fff;
         }
@@ -71,7 +70,7 @@
 
         /* Dropdown Button */
         .dropbtn {
-            background-color: #212F3D; /* Color rectangle background */
+            background-color: #212F3D; /*color rectangle background*/
             color: white;
             padding: 16px;
             font-size: 16px;
@@ -90,7 +89,7 @@
             position: absolute;
             background-color: #f1f1f1;
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
         }
 
@@ -103,34 +102,28 @@
         }
 
         /* Change color of dropdown links on hover */
-        .dropdown-content a:hover {
-            background-color: #ddd;
-        }
+        .dropdown-content a:hover {background-color: #ddd;}
 
         /* Show the dropdown menu on hover */
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+        .dropdown:hover .dropdown-content {display: block;}
 
         /* Change the background color of the dropdown button when the dropdown content is shown */
-        .dropdown:hover .dropbtn {
-            background-color: #3#ddd;
-        }
+        .dropdown:hover .dropbtn {background-color: #3#ddd;}
 
-        /* Media Queries */
+        /* Media Queries for Responsive Design */
         @media only screen and (max-width: 768px) {
             #content {
-                top: 40%;
+                top: 20%;
             }
-
             h1 {
-                font-size: 2em;
+                font-size: 2.5em;
             }
-
-            h3 {
-                font-size: 1.2em;
+            h2 {
+                font-size: 1.5em;
             }
-
+            nav {
+                padding: 10px;
+            }
             nav a {
                 font-size: 1em;
             }
@@ -138,38 +131,19 @@
 
         @media only screen and (max-width: 480px) {
             #content {
-                top: 30%;
+                top: 15%;
             }
-
             h1 {
-                font-size: 1.5em;
+                font-size: 2em;
             }
-
-            h3 {
-                font-size: 1em;
+            h2 {
+                font-size: 1.2em;
             }
-
             nav {
-                padding: 10px;
+                padding: 5px;
             }
-
             nav a {
-                margin: 0 10px;
                 font-size: 0.8em;
-            }
-
-            .dropbtn {
-                padding: 12px;
-                font-size: 14px;
-            }
-
-            .dropdown-content {
-                min-width: 120px;
-            }
-
-            .dropdown-content a {
-                padding: 10px;
-                font-size: 0.9em;
             }
         }
     </style>
@@ -201,22 +175,26 @@
                 <a href="workshops.html">Workshop</a>
             </div>
         </div>
-
-        <div class="dropdown">
+        <div class="dropdown">			
             <button class="dropbtn"><b><font face="Arial Black" size="4">News</font></b></button><b>
             </b>
+        
             <div class="dropdown-content">
                 <a href="Lecture.html">Lecture</a>
                 <a href="Testimonial.html">Testimonial</a>
                 <a href="Feedback.html">Feedback</a>
+            
             </div>
         </div>
+
     </nav>
+
 
     <div id="content">
         <h1>Indian Vedic Foundation</h1>
         <h3>Welcomes you</h3>
     </div>
+    
 </body>
 
 </html>
